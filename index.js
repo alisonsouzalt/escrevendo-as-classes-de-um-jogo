@@ -10,10 +10,16 @@ class hero{
         console.log(`O ${this.tipo} atacou usando ${this.ataque}`)
 
     }
+    atacarTwo(){
+        console.log(`O ${this.tipo} atacou usando ${this.ataque}`)
+
+    }
 
 }
 
-let ataqBasic = new hero("Alvalon", "30", "Guerreiro", "Espada")
+let heroOne = new hero("Alvalon", "30", "Guerreiro", "Espada")
+let heroTwo = new hero("Maverix", "35", "Mago", "Magia")
 
-ataqBasic.atacar()
+heroOne.atacar()
+heroTwo.atacarTwo()
 
